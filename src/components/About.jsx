@@ -17,7 +17,7 @@ const About = () => {
               </div>
             <div className="flex justify-between md:w-[40%] my-6 mx-auto px-6 py-3">
                 <a href="https://github.com/hfzdzakii" target='_blank'><FaGithubSquare size={30} /></a>
-                <a href="https://www.linkedin.com/in/hazh-hafizh-2002-mhd/" target='_blank'><FaLinkedin size={30} /></a>
+                <a href="https://www.linkedin.com/in/hazh-hafizh-2002-mhd/" className='ml-10' target='_blank'><FaLinkedin size={30} /></a>
             </div>
           </div>
           <div className='w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300'>
@@ -29,7 +29,7 @@ const About = () => {
               </div>
               <div className="flex justify-between md:w-[40%] my-6 mx-auto px-6 py-3">
                 <a href="http://github.com/arifsptra" target='_blank'><FaGithubSquare size={30} /></a>
-                <a href="https://www.linkedin.com/in/arifsptrra/" target='_blank'><FaLinkedin size={30} /></a>
+                <a href="https://www.linkedin.com/in/arifsptrra/" className='ml-10' target='_blank'><FaLinkedin size={30} /></a>
             </div>
           </div>
           <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
@@ -41,7 +41,7 @@ const About = () => {
               </div>
               <div className="flex justify-between md:w-[40%] my-6 mx-auto px-6 py-3">
                 <a href="http://github.com/vandermulya" target='_blank'><FaGithubSquare size={30} /></a>
-                <a href="https://www.linkedin.com/in/vandermulya/" target='_blank'><FaLinkedin size={30} /></a>
+                <a href="https://www.linkedin.com/in/vandermulya/" className='ml-10' target='_blank'><FaLinkedin size={30} /></a>
             </div>
           </div>
       </div>
