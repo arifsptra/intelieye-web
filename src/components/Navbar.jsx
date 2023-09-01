@@ -17,7 +17,7 @@ const Navbar = () => {
       />
       <ul className="hidden md:flex">
         <li className="p-4">Beranda</li>
-        <li className="p-4">Tentang Kami</li>
+        <a href="#tentangkami" target="_self"><li className="p-4">Tentang Kami</li></a>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
@@ -35,7 +35,7 @@ const Navbar = () => {
           alt="Logo InteliEye"
         />
         <li className="p-4 border-b border-gray-600">Beranda</li>
-        <li className="p-4">Tentang Kami</li>
+        <a href="#tentangkami" target="_self"><li className="p-4">Tentang Kami</li></a>
       </ul>
     </div>
   );

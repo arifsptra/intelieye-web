@@ -1,10 +1,8 @@
 import React from "react";
 import {
-  FaDribbbleSquare,
   FaFacebookSquare,
   FaGithubSquare,
   FaInstagram,
-  FaTwitterSquare,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -17,38 +15,27 @@ const Footer = () => {
           alt="Logo InteliEye"
         />
         <p className="py-4">
-          Kami dari Tim Conquer Univ. Dian Nuswantoro. Proyek ini asli dan
-          orisinal untuk kepentingan kompetisi AI Innovation Challenge |
+          Hi, there! Kami dari Tim Conquer. Proyek ini kami buat untuk kepentingan kompetisi AI Innovation Challenge -
           COMPFEST 15
         </p>
-        <div className="flex justify-between md:w-[40%] my-6">
-          <FaFacebookSquare size={30} />
-          <FaInstagram size={30} />
-          <FaGithubSquare size={30} />
-        </div>
+        <p>Copyrights ©️ 2023 | Conquer Team</p>
       </div>
       <div className="lg:col-span-2 flex justify-between mt-6">
         <div>
           <h6 className="font-medium text-gray-400">Arif Saputra</h6>
           <ul>
-            <li className="py-2 text-sm">Teknik Informatika</li>
-            <li className="py-2 text-sm">A11.2021.13480</li>
             <li className="py-2 text-sm">Back-End Engineer</li>
           </ul>
         </div>
         <div>
           <h6 className="font-medium text-gray-400">Muhammad Hafizh Dzaki</h6>
           <ul>
-            <li className="py-2 text-sm">Teknik Informatika</li>
-            <li className="py-2 text-sm">A11.2021.13370</li>
             <li className="py-2 text-sm">AI Engineer</li>
           </ul>
         </div>
         <div>
           <h6 className="font-medium text-gray-400">Vander Mulya Putra</h6>
           <ul>
-            <li className="py-2 text-sm">Teknik Informatika</li>
-            <li className="py-2 text-sm">A11.2021.13343</li>
             <li className="py-2 text-sm">Front-End Engineer</li>
           </ul>
         </div>

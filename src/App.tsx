@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import About from "./components/About";
 
 interface FormData {
   sentence: string;
@@ -71,8 +72,8 @@ const App: React.FC = () => {
                 Cari Tahu
               </button>
             </form>
-            <div className="max-w-[200px] mx-auto text-center">
-              <p>Jawabannya Adalah</p>
+            <div className="max-w-[220px] mx-auto text-center">
+              <p>Jawabannya adalah</p>
               {result === "Fakta" ? (
                 <div className="bg-green-500 mt-2 py-2 rounded-md font-bold">
                   {result}
@@ -86,7 +87,7 @@ const App: React.FC = () => {
                   {result}
                 </div>
               ) : (
-                <div className="bg-white mt-2 py-2 rounded-md font-bold">
+                <div className="bg-sky-500 mt-2 py-2 rounded-md font-bold">
                   {result}
                 </div>
               )}
@@ -94,6 +95,7 @@ const App: React.FC = () => {
           </div>
         </div>
       </div>
+      <About />
       <Footer />
     </>
   );
