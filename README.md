@@ -1,46 +1,62 @@
-# Getting Started with Create React App
+# Website Intelieye 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://i.postimg.cc/ht8PCZys/logo-intelieye.png" alt="Diger Logos" width="30%">
+</p>
 
-## Available Scripts
+Intelieye is a Discover the truth about eye health with our website dedicated to checking facts or myths surrounding various aspects of ocular well-being. Welcome to our fact-checking hub for everything related to your precious vision. 
 
-In the project directory, you can run:
+This repository serves as the home for the development of the Intelieye Website, constructed with React.js and styled with Tailwind CSS.
 
-### `npm start`
+To see our application please visit the following link [App Intelieye](https://intelieye.my.id/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To see our application API Repository visit the following link [Repo API Intelieye](https://github.com/arifsptra/intelieye-api)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Prerequisites
 
-### `npm run build`
+Make sure you have the following software installed on your machine:
+- PHP (version 8.1.2)
+- Node.js (version 17.0.0 or above)
+- NPM (Node Package Manager)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+# Clone the repository to your local machine:
+$ git clone https://github.com/arifsptra/intelieye-web.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Change to the project directory
+$ cd intelieye-web
 
-### `npm run eject`
+# Install the project dependencies
+$ npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# After the installation is complete, you can start the development server
+$ npm start
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Visit http://localhost:3000 in your web browser to see the application.
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Technology Stack
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- ReactJS (Javascript Framework)
+- Tailwind CSS (Utility-First CSS Framework)
 
-## Learn More
+## Contributors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Arif Saputra](https://github.com/arifsptra)
+- [Muhammad Hafizh Dzaky](https://github.com/haf-izh)
+- [Vander Mulya Putra](https://github.com/vandermulya)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## App Preview
+
+#### Main App
+![intelieye-app](https://github.com/arifsptra/intelieye-web/assets/91882024/e61cd92f-1c58-455d-8818-c31250507594)
+
+## Licence
+
+This project is licensed under the MIT license. Please see the LICENSE file for more information.
