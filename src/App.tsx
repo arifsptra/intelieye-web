@@ -24,7 +24,7 @@ const App: React.FC = () => {
 
     try {
       const response = await axios.post(
-        "http://api.intelieye.my.id/predicts",
+        "https://api.intelieye.my.id/predicts",
         formData,
         {
           headers: {
@@ -51,7 +51,7 @@ const App: React.FC = () => {
             </h1>
             <p className="text-lg">Apakah benar atau sekadar khayalan?</p>
           </div>
-          <div className="max-w-[600px] mx-auto my-10 md:my-6 lg:my-4">
+          <div className="max-w-[600px] mx-auto my-8 md:my-6 lg:my-2">
             <form
               onSubmit={handleSubmit}
               className="flex flex-col sm:flex-row items-center justify-center"
@@ -91,6 +91,14 @@ const App: React.FC = () => {
                   {result}
                 </div>
               )}
+            </div>
+            <div className="max-w-[75vw] mx-auto text-center color mt-[50px]">
+                <h4>Limitasi : Model telah ditrain dengan 50 mitos dan fakta</h4>
+                <h4>
+                    Cek data yang telah ditrain dan seputarnya
+                    <br />dengan klik link dibawah ini
+                    <br /><a href="https://api.intelieye.my.id/trained" target="__blank">api-intelieye/trained</a>
+                </h4>
             </div>
           </div>
         </div>
