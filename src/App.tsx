@@ -82,7 +82,8 @@ const App: React.FC = () => {
                 <div className="bg-red-500 mt-2 py-2 rounded-md font-bold">
                   {result}
                 </div>
-              ) : result === null ? (
+              ) : result === "Inputan Sementara Tidak Dikenal" ||
+                result === "Bukan tentang mata" ? (
                 <div className="bg-yellow-500 mt-2 py-2 rounded-md font-bold">
                   {result}
                 </div>
@@ -93,12 +94,16 @@ const App: React.FC = () => {
               )}
             </div>
             <div className="max-w-[75vw] mx-auto text-center color mt-[50px]">
-                <h4>Limitasi : Model telah ditrain dengan 50 mitos dan fakta</h4>
-                <h4>
-                    Cek data yang telah ditrain dan seputarnya
-                    <br />dengan klik link dibawah ini
-                    <br /><a href="https://api.intelieye.my.id/trained" target="__blank">api-intelieye/trained</a>
-                </h4>
+              <h4>Limitasi : Model telah ditrain dengan 50 mitos dan fakta</h4>
+              <h4>
+                Cek data yang telah ditrain dan seputarnya
+                <br />
+                dengan klik link dibawah ini
+                <br />
+                <a href="https://api.intelieye.my.id/trained" target="__blank">
+                  api-intelieye/trained
+                </a>
+              </h4>
             </div>
           </div>
         </div>
