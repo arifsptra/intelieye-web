@@ -55,7 +55,7 @@ $ npm start
 ## App Preview
 
 #### Main App
-![intelieye-app](https://github.com/arifsptra/intelieye-web/assets/91882024/e61cd92f-1c58-455d-8818-c31250507594)
+![intelieye](https://github.com/arifsptra/intelieye-web/assets/91882024/5762e98f-5800-415f-a41e-f157d7d86cb4)
 
 ## Licence
 
