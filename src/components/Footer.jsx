@@ -15,10 +15,10 @@ const Footer = () => {
           alt="Logo InteliEye"
         />
         <p className="py-4">
-          Hi, there! Kami dari Tim Conquer. Proyek ini kami buat untuk kepentingan kompetisi AI Innovation Challenge -
+          Halo, kami dari Tim Conqueror! Proyek ini kami buat untuk kepentingan kompetisi AI Innovation Challenge -
           COMPFEST 15
         </p>
-        <p>Copyrights ©️ 2023 | Conquer Team</p>
+        <p>Copyrights ©️ 2023 | Conqueror Team</p>
       </div>
       <div className="lg:col-span-2 flex justify-between mt-6">
         <div>
@@ -28,13 +28,13 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h6 className="font-medium text-gray-400">Muhammad Hafizh Dzaki</h6>
+          <h6 className="font-medium text-gray-400">M. Hafizh Dzaki</h6>
           <ul>
             <li className="py-2 text-sm">AI Engineer</li>
           </ul>
         </div>
         <div>
-          <h6 className="font-medium text-gray-400">Vander Mulya Putra</h6>
+          <h6 className="font-medium text-gray-400">Vander Mulya</h6>
           <ul>
             <li className="py-2 text-sm">Front-End Engineer</li>
           </ul>
